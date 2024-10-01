@@ -5,7 +5,8 @@ export default function Home() {
     <div>
       <Alert>
         <p>
-          This is a sample project to showcase and learn the new <strong>NextJS 13 app directory</strong> and its features, including:
+        Explore a world of stunning visuals at your fingertips. Our platform allows you to effortlessly generate beautiful, high-resolution images sourced directly from Unsplash, the leading repository of free-to-use photos. Whether you're a designer seeking inspiration, a developer in need of eye-catching graphics, or simply someone who appreciates the beauty of photography, we've got you covered.
+          
         </p>
         <ul>
           <li>static and dynamic server-side rendering</li>
@@ -20,8 +21,9 @@ export default function Home() {
         </p>
       </Alert>
       <Alert variant='secondary'>
+        <p className='mb-0'>You can freely use our repository of images for your personal or commercial projects, ensuring that you have access to high-quality visuals without any restrictions. With a user-friendly interface and powerful search capabilities, finding the perfect image is just a click away.</p>
         <p>Note: In order to load the data on this site, you need to get a <a href="https://unsplash.com/developers">free API key from Unsplash</a> and add it to your <code>.env.local</code> file as <code>UNSPLASH_ACCESS_KEY</code>.</p>
-        <p className='mb-0'>Unsplash has a free quota of 50 requests per hour so you might start getting errors if you try too often.</p>
+        {/* <p className='mb-0'>Unsplash has a free quota of 50 requests per hour so you might start getting errors if you try too often.</p> */}
       </Alert>
     </div>
   )
