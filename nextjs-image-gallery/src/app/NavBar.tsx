@@ -8,7 +8,7 @@ export default function NavBar() {
     const pathname = usePathname();
 
     return (
-        <Navbar  variant="dark" sticky="top" expand="sm" collapseOnSelect>
+        <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect>
             <Container>
                 <Navbar.Brand as={Link} href="/">
                     NextJS Image Gallery
